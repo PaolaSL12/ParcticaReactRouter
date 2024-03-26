@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    height: 10svh;
+    background-color: rgb(236, 236, 236);
+}
+
+header nav {
+    width: 100%;
+    height: 10svh;
+}
+
+header ul {
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 40px;
+}
+
+.active {
+    border-bottom: 3px solid black;
+}
